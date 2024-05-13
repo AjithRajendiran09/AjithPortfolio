@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather project</title>
+    <link rel="stylesheet" href="weatherstyle.css">
+</head>
+
+<body>
+    <div id="weatherapp">
+        <div id="container">
+            <nav>
+                <h1>Weather Now</h1>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- --------------------------Intro------------- -->
+    <div id="intro">
+        <div class="sub-tittle">Introduction</div>
+        <div class="content">
+            <p>A user-friendly solution providing real-time weather updates for any city. Users input their desired city
+                name, and the app swiftly fetches crucial weather data including humidity, wind speed, and temperature
+                in Celsius. Leveraging the OpenWeatherMap API, the app ensures accurate and up-to-date information for
+                informed decision-making. Error handling ensures seamless user experience, promptly notifying users of
+                invalid city entries.Developed with JavaScript, this project emphasizes versatility and accessibility,
+                empowering users with essential weather insights for their daily endeavors. Welcome to a world where
+                weather tracking is both effortless and reliable.</p>
+        </div>
+    </div>
+
+    <!-- --------------objective----------- -->
+    <div id="objective">
+        <div class="sub-tittle">Objective</div>
+        <div class="content">
+            <ul>
+                <li>Real-Time Updates</li>
+                <p>Utilize JavaScript to fetch and display real-time weather data from an external API.</p>
+                <li>User Interaction</li>
+                <p>Develop an intuitive interface where users can easily input the name of the city they wish to check
+                    the weather for.</p>
+                <li>Data Presentation</li>
+                <p> Present weather information in a clear and organized manner, including humidity, wind speed, and
+                    temperature in Celsius.</p>
+                <li>Reliability</li>
+                <p>Ensure accurate and up-to-date weather data by leveraging a reliable weather API like OpenWeatherMap.
+                </p>
+                <li>Error Handling</li>
+                <p>Implement robust error handling mechanisms to gracefully handle invalid inputs and notify users of
+                    any issues.
+                </p>
+                <li>Accessibility</li>
+                <p>Design the application to be accessible and easy to use for users of all levels of technical
+                    proficiency.</p>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ------------------scope of the project----------------------- -->
+
+    <div id="Scopeoftheproject">
+        <div class="sub-tittle">Scope of the project</div>
+        <div class="content">
+            <ul>
+                <li>Weather Data Retrieval</li>
+                <p> Utilizing JavaScript, the application will fetch real-time weather data from the OpenWeatherMap API
+                    based on user-provided city names.</p>
+                <li>User Interface Development</li>
+                <p>Designing a user-friendly interface where users can input city names and view weather information
+                    effortlessly. This includes elements such as input fields, buttons, and weather data display areas.
+                </p>
+                <li>Weather Information Display</li>
+                <p>Presenting weather information such as humidity, wind speed, and temperature in degrees Celsius in a
+                    clear and concise manner within the application interface.</p>
+                <li>Error Handling</li>
+                <p> Implementing error handling mechanisms to gracefully handle situations such as invalid city names or
+                    API request failures, ensuring a smooth user experience.</p>
+                <li>Scalability</li>
+                <p>Designing the application architecture in a modular and scalable manner to accommodate potential
+                    future enhancements or feature additions.</p>
+            </ul>
+
+        </div>
+    </div>
+    <!-- --------------System requirment------------------ -->
+    <div id="SystemRequirment">
+        <div id="Container">
+            <div class="sub-tittle">System Requirement</div>
+            <div class="contents">
+                <li>Software Requirement</li>
+                <ol>
+                    <li>Operating System: Windows 10 </li>
+                    <li> Front end: HTML,CSS </li>
+                    <li>Back end: JavaScript </li>
+                    <li> Tool:Visual studio code </li>
+                </ol>
+                <li>Hardware Requirement</li>
+                <ol>
+                    <li>Processor : Core i5 or Higher</li>
+                    <li>RAM :4GB RAM </li>
+                    <li>Hard disk : 15 GB or more </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------------feature and components------------- -->
+    <div id="featureandcomponents">
+        <div id="container">
+            <div class="sub-tittle">Feature and components</div>
+            <div class="contents">
+                <ul>
+                    <li>City Input</li>
+                    <p>Users can input the name of the city they want to check the weather for.</p>
+                    <li>Weather Display</li>
+                    <p>The application will fetch and display real-time weather information for the specified city,
+                        including humidity, wind speed, and temperature in Celsius.</p>
+                    <li>Error Handling</li>
+                    <p> Robust error handling mechanisms will be in place to handle situations such as invalid city
+                        names or API request failures, providing informative messages to the user.</p>
+                    <li>User Interface</li>
+                    <p> A user-friendly interface will be developed to facilitate easy interaction with the application,
+                        featuring input fields, buttons, and a visually appealing display of weather data.</p>
+                    <li>API Integration</li>
+                    <p> Integration with the OpenWeatherMap API will be a crucial component to retrieve real-time
+                        weather data based on user inputs.</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ----------------------Functional Decomposition-------------- -->
+
+    <div id="FUNCTIONALDECOMPOSITION">
+        <div id="container">
+            <div class="sub-tittle">Functional Decomposition</div>
+            <div class="content">
+                <ul>
+                    <li>User Interface</li>
+
+                    <ol>
+                        <li>Display input field for city name</li>
+                        <li>Display button to initiate weather data retrieval</li>
+                        <li>Display area to present weather information</li>
+                        <li>Error message display area for invalid inputs or API failures</li>
+                    </ol>
+                    <li>Input Processing</li>
+                    <ol>
+                        <li>Receive and validate user input (city name)</li>
+                        <li>Trigger weather data retrieval upon user request</li>
+                        <li>Handle user interactions with the interface elements</li>
+                    </ol>
+                    <li>Weather Data Retrieval</li>
+                    <ol>
+                        <li>Send API request to OpenWeatherMap with the provided city name </li>
+                        <li>Receive and parse the API response</li>
+                        <li>Extract relevant weather information such as humidity, wind speed, and temperature</li>
+
+                    </ol>
+                    <li>Display Weather Information</li>
+                    <ol>
+                        <li>Format and present weather data in a visually appealing manner</li>
+                        <li>Display humidity, wind speed, and temperature in Celsius </li>
+                        <li>Update the interface with the retrieved weather information</li>
+                    </ol>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------futureenchancement------------ -->
+    <div id="futureenhancement">
+        <div id="container">
+            <div class="sub-tittle">Future Enhancement</div>
+            <div class="contents">
+                <ul>
+                    <li>Forecast Feature</li>
+                    <p> Implement a feature to display weather forecasts for the upcoming days, providing users with
+                        insights into future weather conditions.</p>
+                    <li>Geolocation Integration</li>
+                    <p>Integrate geolocation functionality to automatically detect and display weather information for
+                        the user's current location, enhancing convenience and usabilitys.</p>
+
+                    <li>Customization Options</li>
+                    <p>Allow users to customize the application interface, such as choosing preferred units (e.g.,
+                        Celsius or Fahrenheit) or displaying additional weather parameters (e.g., precipitation, UV
+                        index).</p>
+                    <li>Weather Alerts</li>
+                    <p>Implement real-time weather alert notifications to inform users about severe weather conditions
+                        or alerts issued for their selected cities.</p>
+                    <li>Personalization Features</li>
+                    <p>Implement features for users to create custom profiles, save favorite locations, and receive
+                        personalized weather recommendations based on their preferences and activities.</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------Conclusion---------- -->
+    <div id="conclusion">
+        <div id="container">
+            <div class="sub-tittle">Conclusion</div>
+            <div class="content">
+                <p>In conclusion, our weather application presents a valuable solution for users seeking quick and
+                    accurate weather information for any city. By leveraging JavaScript, we've crafted a user-friendly
+                    interface that seamlessly interacts with the OpenWeatherMap API to retrieve real-time weather data.
+                    Through diligent error handling and intuitive design, users can effortlessly input city names and
+                    access essential weather details like humidity, wind speed, and temperature in Celsius.
+                    <br>Looking ahead, the application holds significant potential for enhancement. Future iterations
+                    could introduce forecast features, geolocation integration, and customizable options, enriching the
+                    user experience and expanding the application's utility. With a commitment to continual improvement
+                    and innovation, our weather application stands poised to meet the evolving needs of its users,
+                    providing reliable weather insights for informed decision-making and enhanced daily planning.
+                </p>
+
+
+
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

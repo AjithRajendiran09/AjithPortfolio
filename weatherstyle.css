@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(20, 55, 52);
+   
+}
+nav{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+
+}
+.sub-tittle{
+    color: rgb(172, 242, 242);
+    font-size: 30px;
+    padding: 20px 30px;
+    padding-top: 30px;
+
+}
+.content p{
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+.content ul li{
+    color:chocolate;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px 30px;
+   padding-top: 10px;
+}
+#SystemRequirment ol li{
+    color:white;
+    font-size: 25px;
+    margin:10px 60px;
+    
+
+}
+#SystemRequirment li{
+    color:rgb(168, 102, 15);
+    font-size: 35px;
+    margin:10px 30px;
+    padding-top: 20px;
+}
+#featureandcomponents ul p{
+    color:white;
+    font-size: 25px;
+    margin:10px 60px;
+    padding-bottom: 20px;
+
+}
+#featureandcomponents li{
+    color:rgb(168, 102, 15);
+    font-size: 30px;
+    margin:10px 60px;
+}
+#futureenhancement ul li{
+    color:rgb(168, 102, 15);
+    font-size: 30px;
+    margin:10px 60px;
+    padding-bottom: 20px;
+
+}
+#futureenhancement ul p{
+    color:white;
+    font-size: 25px;
+    margin:10px 60px;
+    padding-bottom: 30px;
+
+
+}
+#FUNCTIONALDECOMPOSITION ul li{
+    color:rgb(168, 102, 15);
+    font-size: 30px;
+    margin:10px 60px;
+}
+#FUNCTIONALDECOMPOSITION ol li{
+    color:white;
+    font-size: 25px;
+    margin:10px 60px;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+   .content p{
+    font-size: 15px;
+   }
+   #futureenhancement ul p{
+    font-size: 15px;
+   }
+   #FUNCTIONALDECOMPOSITION ol li{
+    font-size: 15px;
+   }
+   #featureandcomponents ul p{
+    font-size: 15px;
+   }
+   #SystemRequirment ol li{
+    font-size: 15px;
+   }
+}

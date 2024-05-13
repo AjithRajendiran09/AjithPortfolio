@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Poppins',serif; */
+}
+body{
+    background-color: rgba(94, 0, 94, 0.713);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid blue;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:hsl(0, 0%, 7%);
+    font-family:sans-serif;
+}
+#header p{
+    color: #fff;
+}
+.Intro{
+    font-size: xx-large;
+    font-family: 'Poppins',serif;
+    color: #f90b56;
+    margin: 20px;
+}
+#header p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+    margin-left: 20px;   
+    padding-bottom: 30px;
+}
+/* ------------------Objectives------- */
+.sub-tittle{
+    font-size: xx-large;
+    font-family: 'Poppins',serif;
+    color: #ff004f;
+    margin: 20px;
+}
+.headings li{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.headings ul p{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    padding-bottom: 30px;
+
+}   
+#Scopeoftheproject p{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+#SystemRequirment .headings ol li{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 15px;
+
+
+}
+#FUNCTIONALDECOMPOSITION .headings ol li{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 30px;
+
+
+}
+#FutureEnhancements .headings p{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 30px;
+
+}
+#Conclusion .headings p{
+    margin: 10px 40px;
+    font-size: 20px;
+    font-family: serif;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 30px;
+
+}
+@media only screen and (max-width:600px){
+ 
+  #header p{
+    font-size: 15px;
+  }
+  #objectives ul p{
+    font-size: 15px;
+  }
+  #Scopeoftheproject p{
+    font-size: 15px;
+  }
+  #SystemRequirment .headings ol li{
+    font-size: 15px;
+  }
+  #Featuresandcomponents p{
+    font-size: 15px;
+  }
+  #Datatohighlighttheproblem ul p{
+    font-size: 15px;
+
+  }
+  #FUNCTIONALDECOMPOSITION .headings ol li{
+font-size: 15px;
+  }
+  #FutureEnhancements .headings p{
+    font-size: 15px;
+  }
+  #Conclusion .headings p{
+    font-size: 15px;
+  }
+}
