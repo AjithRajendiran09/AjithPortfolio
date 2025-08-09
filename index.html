@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajith Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2b9765243.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <h5><span>P</span>ortfolio</h5> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"> </i>
+
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p><span>Assistant Professor</span></p>
+                <h1>Hi, I'm <span>Ajith Rajendiran</span> <br></h1>
+                <p> Dedicated Assistant Professor with a passion for teaching and mentoring students in Computer Science and IT.
+                    <br> 
+        Skilled in full-stack development, database management, and emerging technologies, with hands-on experience 
+        in building innovative projects. 
+        <br>Committed to bridging the gap between academia and industry by delivering 
+        real-world knowledge in the classroom.
+                </p>
+            </div>
+            <!-- <div id="header"><img src="assests/Back1.png" alt=""> -->
+
+        </div>
+    </div>
+    </div>
+
+    <!-- -----------------------About me---------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="abt">I am an Assistant Professor in Computer Science with expertise in Java, SQL, HTML, CSS, JavaScript, ReactJS, 
+    and Spring Boot. Holding a Master’s degree in Computer Application, I combine academic knowledge with industry 
+    <!-- experience to create impactful learning experiences. My passion lies in developing software solutions, guiding 
+    students in innovative projects, and integrating modern technologies into teaching. -->
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+ <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>  <span>Back-end</span> <br>Java,JavaScript,C</li>
+                            <li> <span>Database</span><br>MySQL,Oracle SQL,MongoDB</li>
+                            <li><span>Front-end</span><br>HTML5,CSS</li>
+                            <li><span>API</span><br>JDBC,Rest API</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2021-2023</span><br>Master of Computer Application <br>AMC College</li>
+                            <li><span>2018-2021 </span><br>Bachelors of Computer Application <br>New Horizon College
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>2023</span> <br>Java Full Stack Development <br> Jspiders</li>
+
+                            <li><span>2023</span> <br>Full Stack Developer <br> Prinston Smart Engineers</li>
+
+                        </ul>
+                    </div>
+                      <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li><span>2025-July</span><br>Christ Academy Institute for Advanced Studies <br>Assistant Professor</li>
+
+                            <li><span>2024-August</span><br>IZee Business School <br>Assistant Professor</li>
+                        </ul>
+                </div>
+                
+                <div class="about-col-3"></div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfolio--------------    -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <h1 class="heading">Women Safe Project</h1>
+                    <img src="WomenSafe.png" alt="WomenSafeApp">
+                    <div class="layer">
+                        <h3>Women Safe Application </h3>
+                        <p>"Women Safe" is a powerful safety app for women, offering quick emergency alerts to trusted
+                            contacts, discreet location sharing, and safety tips. Access helplines and safety
+                            tips easily.</p>
+                        <a href="women.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <h1 class="heading">Pet health care project</h1>
+                    <img src="Pet app.png" alt="Pet App">
+                    <div class="layer">
+                        <h3>Pet Health Care</h3>
+                        <p>"Pet Health Care" app is your go-to for keeping your furry friend healthy.
+                            E-commerce, set reminders for vet visits, doctor appointments, and monitor their
+                            well-being with ease. Your dog's health, simplified. .</p>
+                        <a href="pet.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <h1 class="heading">Weather Project</h1>
+                    <img src="weather1.png" alt="WeatherApp">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>"WeatherNow" Our weather app offers instant, accurate updates on humidity, wind speed, and
+                            Celsius temperature, ensuring informed decisions for any location.
+                        </p>
+                        <a href="weather.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/AjithRajendiran09?tab=repositories" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -----------------Contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+
+                    <p><i class="fa-solid fa-envelope"></i> ajithrajendiran9@gmail.com</p>
+
+                    <p> <i class="fa-solid fa-phone"></i> 9952984334</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ajith-rajendiran/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AjithRajendiran09" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./AjithRajendiranResumeAP.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ------------copyright--------------- -->
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Ajith Rajendiran</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links ")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px ";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxSiWhPLdgxkukQtBdU9dHidMV_iD5oT0s-6iktqj8p7kuuc2OxPO_WT3Dy7Rc802eF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+</body>
+
+</html>
